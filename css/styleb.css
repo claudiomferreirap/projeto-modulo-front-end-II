@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(184, 181, 181);
+}
+
+#principal {
+  width: 100vw;
+  height: 100vh;
+}
+
+#div1 {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+#div2 {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#div3 {
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  left: 108vh;
+  top: 34vw;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 35vh;
+}
+
+.formulario {
+  margin: 35px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 20px;
+  width: 400px;
+  height: 45px;
+  font-size: 20px;
+  padding-left: 5px;
+  border: 2px solid rgb(237, 220, 220);
+}
+
+input:hover {
+  border: 2px solid black;
+}
+
+button.btn {
+  background-color: rgb(85, 85, 87);
+  width: 690px;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  margin: 20px;
+  color: white;
+}
