@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recados</title>
+    <link rel="stylesheet" href="./css/stylec.css" />
+  </head>
+
+  <body>
+    <h1 class="titulo">Meus Recados</h1>
+    <button type="button" id="btn-sair">Sair</button>
+
+    <form id="form-recados">
+      <input type="text" id="codigo" placeholder="Código" />
+      <input
+        type="text"
+        name="descricao"
+        placeholder="Descrição"
+        id="descricao"
+      />
+      <input
+        type="text"
+        name="detalhamento"
+        placeholder="Detalhamento"
+        id="detalhamento"
+      />
+
+      <input type="button" value="Salvar" id="btn-salvar" />
+      <input type="button" value="Atualizar" id="btn-atualizar" />
+      <input type="button" value="Cancelar" id="btn-cancelar" />
+
+      <div>
+        <table id="tabela-recados">
+          <tr>
+            <th>Número</th>
+            <th>Descrição</th>
+            <th>Detalhamento</th>
+            <th>Ação</th>
+          </tr>
+          <!-- criar pelo js -->
+
+          <!--final dos registros criados pelo js-->
+        </table>
+      </div>
+    </form>
+
+    <script src="./js/indexc.js"></script>
+  </body>
+</html>
